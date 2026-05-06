@@ -13,9 +13,9 @@
     --gold-200: #fde68a;
     --gold-300: #fcd34d;
     --gold-400: #fbbf24;
-    --gold-500: #f59e0b;
-    --gold-600: #d97706;
-    --gold-700: #b45309;
+    --gold-500: #e4b667;
+    --gold-600: #e8a252;
+    --gold-700: #d98849;
     --gold-800: #92400e;
     --gold-900: #78350f;
     --navy-50: #f0f5ff;
@@ -109,9 +109,9 @@
   background: #07111f;
 }
 ::-webkit-scrollbar-thumb {
-  background: #b45309;
+  background: #c6824e;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #d97706;
+  background: #cb9b64;
 }
