@@ -48,8 +48,8 @@ export default function Navbar({ activePage, setActivePage }) {
       </div>
 
       {/* Main Navbar */}
-      <nav
-  className={`sticky top-0 z-50 transition-all duration-500 ${
+     <nav
+  className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
     scrolled
       ? "bg-navy-900 shadow-lg py-3"
       : "bg-navy-900 py-4"

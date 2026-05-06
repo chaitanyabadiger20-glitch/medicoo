@@ -34,6 +34,9 @@
   html {
     scroll-behavior: smooth;
   }
+  body {
+  padding-top: 80px;
+}
 
 
   body {
@@ -41,6 +44,7 @@
     @apply text-navy-900 bg-white;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #05152d;
   }
   html, body {
   max-width: 100%;
