@@ -168,14 +168,14 @@ export default function AboutPage({ setActivePage }) {
           <SectionHeader badge="Inside MediVance" title="Our" highlight="World-Class Facilities" />
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=600&q=80",
-              "https://images.unsplash.com/photo-1576671081837-49000212a370?w=600&q=80",
-              "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=600&q=80",
-              "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80",
-              "https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=600&q=80",
-              "https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=600&q=80",
-              "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&q=80",
-              "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&q=80",
+              "https://static.vecteezy.com/system/resources/previews/031/547/657/large_2x/image-showcasing-a-well-organized-and-technologically-advanced-intensive-care-unit-icu-with-specialized-equipment-emphasizing-the-importance-of-critical-care-and-patient-monitoring-generative-ai-photo.jpeg",
+              "https://www.mmoser.com/wp-content/uploads/2021/07/UFH-hospital-reception-1200x675.jpg",
+              "https://img.magnific.com/premium-photo/pharmacist-laboratory-professional-medication-mixing-precision_1194840-5777.jpg",
+              "https://5.imimg.com/data5/SELLER/Default/2023/6/318905081/XA/TI/DY/11058152/modular-operation-theatre-modular-ot-1000x1000.jpg",
+              "https://blog.rehabselect.net/hs-fs/hubfs/orthopedic%20rehab%20physical%20therapy.jpeg?width=1260&name=orthopedic%20rehab%20physical%20therapy.jpeg",
+              "https://www.mylumens.com/Content/Upload/images/Application/Lumens-VC-B30U-telemedicine-video-meeting-s.png",
+              "https://img.magnific.com/premium-photo/serious-professional-team-doctors-ambulance-moving-patient-into-hospital-during-emergency-situation_283617-1564.jpg",
+              "https://media.istockphoto.com/id/1860103447/fr/photo/une-infirmi%C3%A8re-sert-des-aliments-di%C3%A9t%C3%A9tiques-dans-un-service-dhospitalisation.jpg?s=612x612&w=0&k=20&c=YweQJ6MWNXkg2Ixo-w4xQlkATFM_e7VsWjIORBvJ6_s=",
             ].map((src, i) => (
               <div key={i} className="group relative overflow-hidden rounded-xl aspect-square">
                 <img

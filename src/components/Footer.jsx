@@ -57,15 +57,39 @@ export default function Footer({ setActivePage }) {
             India's #1 ranked multi-super-speciality hospital network, founded with the mission to deliver world-class, affordable healthcare to all.
           </p>
           <div className="flex gap-3">
-            {["🐦", "📘", "📷", "▶️", "💼"].map((icon, i) => (
-              <button
-                key={i}
-                className="w-9 h-9 rounded-lg bg-navy-800 border border-navy-700 flex items-center justify-center text-sm hover:bg-gold-600/20 hover:border-gold-600/40 transition-all"
-              >
-                {icon}
-              </button>
-            ))}
-          </div>
+  {[
+    {
+      icon: "🐦",
+      link: "https://twitter.com",
+    },
+    {
+      icon: "📘",
+      link: "https://facebook.com",
+    },
+    {
+      icon: "📷",
+      link: "https://instagram.com",
+    },
+    {
+      icon: "▶️",
+      link: "https://youtube.com",
+    },
+    {
+      icon: "💼",
+      link: "https://linkedin.com",
+    },
+  ].map((item, i) => (
+    <a
+      key={i}
+      href={item.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-9 h-9 rounded-lg bg-navy-800 border border-navy-700 flex items-center justify-center text-sm hover:bg-gold-600/20 hover:border-gold-600/40 hover:scale-110 transition-all duration-300 cursor-pointer"
+    >
+      {item.icon}
+    </a>
+  ))}
+</div>
           <div className="mt-5 flex flex-wrap gap-2">
             {["NABH", "JCI", "ISO 9001", "NABL"].map((cert) => (
               <span

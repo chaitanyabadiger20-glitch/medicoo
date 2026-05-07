@@ -147,22 +147,22 @@ export default function HomePage({ setActivePage }) {
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1576671081837-49000212a370?w=600&q=80"
+                src="https://images.pond5.com/generic-health-care-modern-hospital-088664126_prevstill.jpeg"
                 alt="Hospital"
                 className="rounded-2xl h-64 w-full object-cover shadow-xl hover:scale-105 transition-transform duration-500"
               />
               <img
-                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80"
+                src="https://as2.ftcdn.net/v2/jpg/05/13/56/19/1000_F_513561931_2OeWN4BzXoeHNDpUi1lc40c5zHAAS5cB.jpg"
                 alt="Doctor"
                 className="rounded-2xl h-48 w-full object-cover shadow-xl mt-12 hover:scale-105 transition-transform duration-500"
               />
               <img
-                src="https://images.unsplash.com/photo-1631815589968-fdb09a223b1e?w=600&q=80"
+                src="https://aaa-accreditation.org/wp-content/uploads/2024/11/Hospital-1024x640.png"
                 alt="Surgery"
                 className="rounded-2xl h-48 w-full object-cover shadow-xl -mt-8 hover:scale-105 transition-transform duration-500"
               />
               <img
-                src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80"
+                src="https://thumbs.dreamstime.com/b/stethoscope-rests-digital-world-map-data-visualization-global-healthcare-tech-advancements-concept-worldwide-medicine-387292819.jpg"
                 alt="Care"
                 className="rounded-2xl h-64 w-full object-cover shadow-xl hover:scale-105 transition-transform duration-500"
               />
@@ -210,43 +210,51 @@ export default function HomePage({ setActivePage }) {
       </section>
 
       {/* Technology */}
-      <section className="py-24 bg-gradient-to-br from-navy-900 via-navy-950 to-navy-900 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-gold-400 rounded-full blur-3xl" />
-        </div>
-        <div className="max-w-7xl mx-auto px-6 relative z-10">
-          <SectionHeader
-            badge="Advanced Technology"
-            title="Cutting-Edge"
-            highlight="Medical Innovation"
-            subtitle="Equipped with technology owned by fewer than 10 hospitals worldwide — delivering precision medicine at its finest."
-            light
-          />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {TECHNOLOGIES.map((tech, i) => (
-              <div
-                key={i}
-                className="group relative overflow-hidden rounded-2xl border border-navy-700/50 hover:border-gold-600/40 transition-all duration-300 hover:-translate-y-1 bg-navy-800/30"
-              >
-                <div className="relative h-44 overflow-hidden">
-                  <img
-                    src={tech.image}
-                    alt={tech.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-70"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/60 to-transparent" />
-                </div>
-                <div className="p-5">
-                  <h3 className="text-white font-bold text-sm mb-2 font-display group-hover:text-gold-400 transition-colors">
-                    {tech.name}
-                  </h3>
-                  <p className="text-slate-400 text-xs leading-relaxed">{tech.description}</p>
-                </div>
-              </div>
-            ))}
+<section className="py-24 bg-gradient-to-br from-navy-900 via-navy-950 to-navy-900 relative overflow-hidden">
+  <div className="absolute inset-0 opacity-5">
+    <div className="absolute top-0 right-0 w-96 h-96 bg-gold-400 rounded-full blur-3xl" />
+  </div>
+
+  <div className="max-w-7xl mx-auto px-6 relative z-10">
+    <SectionHeader
+      badge="Advanced Technology"
+      title="Cutting-Edge"
+      highlight="Medical Innovation"
+      subtitle="Equipped with technology owned by fewer than 10 hospitals worldwide — delivering precision medicine at its finest."
+      light
+    />
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {TECHNOLOGIES.map((tech, i) => (
+        <div
+          key={i}
+          className="group relative overflow-hidden rounded-2xl border border-navy-700/50 hover:border-gold-600/40 transition-all duration-300 hover:-translate-y-1 bg-navy-800/30"
+        >
+          <div className="relative h-44 overflow-hidden">
+            <img
+              src={tech.image}
+              alt={tech.name}
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500  saturate-50 brightness-90"
+            />
+
+            {/* Reduced overlay darkness */}
+            <div className="absolute inset-0 bg-gradient-to-t from-navy-950/70 via-navy-950/30 to-transparent" />
+          </div>
+
+          <div className="p-5">
+            <h3 className="text-white font-bold text-sm mb-2 font-display group-hover:text-gold-400 transition-colors">
+              {tech.name}
+            </h3>
+
+            <p className="text-slate-400 text-xs leading-relaxed">
+              {tech.description}
+            </p>
           </div>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* Doctors */}
       <section className="py-24 bg-yellow-50">

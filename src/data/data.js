@@ -114,7 +114,7 @@ export const SPECIALITIES = [
   {
     id: 6,
     name: "Gastroenterology",
-    icon: "🌬️",
+    icon: "💉",
     description: "Advanced endoscopy, ERCP, and hepatology with world-class gastro surgeons.",
     image: "https://agcro.com/wp-content/themes/AGCR/images/gastroenterology.webp",
     procedures: ["Endoscopy", "Colonoscopy", "Liver Care", "Bariatric Surgery"],
@@ -187,7 +187,7 @@ export const DOCTORS = [
     designation: "Director, Oncology",
     speciality: "Cancer Sciences",
     experience: "28 Years",
-    image: "https://tse2.mm.bing.net/th/id/OIP.b0lw9rrm8JcnWtdv3FzVOAHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    image: "https://thumbs.dreamstime.com/z/indian-beautiful-female-doctor-18399186.jpg",
     hospital: "MediVance Gurugram",
     education: "PGIMER | Johns Hopkins",
     awards: ["Best Oncologist 2023", "Research Excellence Award"],
@@ -198,7 +198,7 @@ export const DOCTORS = [
     designation: "Head of Neurosciences",
     speciality: "Neurology & Spine",
     experience: "30 Years",
-    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&q=80",
+    image: "https://img.magnific.com/premium-photo/portrait-indian-doctor-indian-doctor-smiling_890100-1265.jpg?w=740",
     hospital: "MediVance Lucknow",
     education: "NIMHANS | Mayo Clinic",
     awards: ["Neurosurgeon of the Year 2021"],
@@ -424,22 +424,22 @@ export const TECHNOLOGIES = [
   {
     name: "Da Vinci Robotic System",
     description: "Minimally invasive surgery with robotic precision across multiple specialities.",
-    image: "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=600&q=80",
+    image: "https://www.beaconhealthsystem.org/wp-content/uploads/2018/05/Img136_Xi_System_and_Nurse_High_Res_185258.jpg",
   },
   {
     name: "CyberKnife M6",
     description: "Non-invasive, pain-free cancer treatment with sub-millimetre precision.",
-    image: "https://images.unsplash.com/photo-1576671081837-49000212a370?w=600&q=80",
+    image: "https://i2-prod.birminghammail.co.uk/incoming/article6189243.ece/ALTERNATES/s810/CyberKnife-The-latest-innovative-addition-to-the-Cancer-Centre-at-the-Birmingham-QE-Hospital.jpg",
   },
   {
     name: "256-Slice CT Scanner",
     description: "Complete 3D heart imaging in under 5 seconds.",
-    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80",
+    image: "https://www.fvhospital.com/wp-content/uploads/2019/01/msct-ct-scanner-en.jpg",
   },
   {
     name: "BrainSUITE Intraoperative MRI",
     description: "Real-time brain imaging during surgery to protect critical areas.",
-    image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&q=80",
+    image: "https://marketing.webassets.siemens-healthineers.com/aa1adbe32560e5d0/d2d25df781c5/v/9b2866227d91/siemens-healthineers_DI-MR_Nexaris_Angio.jpg?nowebp=1",
   },
 ];
 
